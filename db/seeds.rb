@@ -11,14 +11,20 @@ Post.create(:author => 'Alice',
             :content => %{<div>I love this world!</div>}
 )
 Post.create(:author => 'Bill',
-            :content => %{<div>Steve Jobs makes the world worse!</div>}
+            :content => %{Steve Jobs makes the world worse!}
 )
 Post.create(:author => 'Cilly',
-            :content => %{<div>I want my porridge!</div>}
+            :content => %{I want my porridge!}
 )
 Post.create(:author => 'Dave',
-            :content => %{<div>Nash!</div>}
+            :content => %{Nash!}
 )
 Post.create(:author => 'Emma',
-            :content => %{<div>Harry Potter come back please!</div>}
+            :content => %{Harry Potter come back please!}
+)
+Post.create(:author => 'Fiona',
+            :content => %{你们到底想要我怎样！垃圾！}
+)
+Post.create(:author => 'Gigi',
+            :content => %{能不能不要说话！}
 )

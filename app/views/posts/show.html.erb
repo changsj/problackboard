@@ -2,13 +2,14 @@
 
 <div class="placeholder"></div>
 
+<% @newpost = @post %>
 <div class="container entry">
   <div class="row">
     <div class="col-md-12">
       <div class="jumbotron">
-        <h1><%= sanitize(@post.content) %></h1>
+        <h1><%= sanitize(@newpost.content) %></h1>
         <br />
-        <h3 class="text-right">—— <%= sanitize(@post.author) %></h3>
+        <h3 class="text-right">—— <%= sanitize(@newpost.author) %></h3>
       </div>
     </div>
   </div>
