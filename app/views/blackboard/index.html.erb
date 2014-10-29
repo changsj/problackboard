@@ -1,0 +1,16 @@
+<% if notice %>
+    <p id = "notice"><%= notice %></p>
+<% end  %>
+
+<div class="entry">
+  <h1><%= sanitize(@posts.last.content) %></h1>
+  <h3><%= sanitize(@posts.last.author) %></h3>
+</div>
+
+<!--<% @posts.each do |post| %>-->
+    <!--<div class="entry">-->
+      <!--<h1><%= sanitize(post.content) %></h1>-->
+      <!--<h3><%= post.author %></h3>-->
+      <!--<br />-->
+    <!--</div>-->
+<!--<% end  %>-->
