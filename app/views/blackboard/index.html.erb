@@ -1,0 +1,31 @@
+<% if notice %>
+    <p id = "notice"><%= notice %></p>
+<% end  %>
+
+<div class="placeholder"></div>
+
+<% @newpost = @posts.last %>
+
+<% if @newpost %>
+<div class="container entry">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="jumbotron">
+        <h1><%= sanitize(@newpost.content) %></h1>
+        <br />
+        <h3 class="text-right">—— <%= sanitize(@newpost.author) %></h3>
+      </div>
+    </div>
+  </div>
+</div>
+<% end %>
+
+
+<!--以下是作为对 posts 的遍历-->
+<!--<% @posts.each do |post| %>-->
+    <!--<div class="entry">-->
+      <!--<h1><%= sanitize(post.content) %></h1>-->
+      <!--<h3><%= post.author %></h3>-->
+      <!--<br />-->
+    <!--</div>-->
+<!--<% end  %>-->
