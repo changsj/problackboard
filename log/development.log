@@ -9004,3 +9004,214 @@ Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-11-21 00:01:35 +0800
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-21 00:01:35 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-21 00:05:52 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BlackboardController#index as HTML
+  [1m[35mPost Load (0.7ms)[0m  SELECT  "posts".* FROM "posts"   ORDER BY "posts"."id" DESC LIMIT 1
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered blackboard/index.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 209ms (Views: 193.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/blackboard.css?body=1" for 127.0.0.1 at 2014-11-21 00:05:52 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-21 00:05:52 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-21 00:05:52 +0800
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-11-21 00:05:52 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-21 00:05:52 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-21 00:05:52 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-21 00:05:52 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-21 00:05:52 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-21 00:05:52 +0800
+
+
+Started GET "/assets/blackboard.js?body=1" for 127.0.0.1 at 2014-11-21 00:05:52 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-21 00:05:52 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-21 00:05:52 +0800
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-11-21 00:05:52 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-21 00:05:52 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-21 00:06:07 +0800
+Processing by BlackboardController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts"   ORDER BY "posts"."id" DESC LIMIT 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered blackboard/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 59ms (Views: 57.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/blackboard.css?body=1" for 127.0.0.1 at 2014-11-21 00:06:08 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-21 00:06:08 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-21 00:06:08 +0800
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-11-21 00:06:08 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-21 00:06:08 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-21 00:06:08 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-21 00:06:08 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-21 00:06:08 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-21 00:06:08 +0800
+
+
+Started GET "/assets/blackboard.js?body=1" for 127.0.0.1 at 2014-11-21 00:06:08 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-21 00:06:08 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-21 00:06:08 +0800
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-11-21 00:06:08 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-21 00:06:08 +0800
+
+
+Started GET "/shout" for 127.0.0.1 at 2014-11-21 11:12:05 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (26.3ms)
+  Rendered posts/new.html.erb within layouts/application (33.1ms)
+Completed 200 OK in 198ms (Views: 185.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/blackboard.css?body=1" for 127.0.0.1 at 2014-11-21 11:12:05 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-21 11:12:05 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-21 11:12:05 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-21 11:12:05 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-21 11:12:05 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-21 11:12:05 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-21 11:12:05 +0800
+
+
+Started GET "/assets/blackboard.js?body=1" for 127.0.0.1 at 2014-11-21 11:12:05 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-21 11:12:05 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-21 11:12:05 +0800
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-11-21 11:12:05 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-21 11:12:05 +0800
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-11-21 11:12:05 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-21 11:12:05 +0800
+
+
+Started POST "/posts" for 127.0.0.1 at 2014-11-21 11:12:20 +0800
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BLZg36gZ8KAdGl3VrGxJ00i4uroAPBMustnqJi2rvIk=", "post"=>{"content"=>"给我面包！", "author"=>"breadman"}, "commit"=>"Create Post"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "posts" ("author", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["author", "breadman"], ["content", "给我面包！"], ["created_at", "2014-11-21 03:12:20.154435"], ["updated_at", "2014-11-21 03:12:20.154435"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-21 11:12:20 +0800
+Processing by BlackboardController#index as HTML
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts"   ORDER BY "posts"."id" DESC LIMIT 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered blackboard/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 70ms (Views: 68.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-11-21 11:12:20 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-21 11:12:20 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-21 11:12:20 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-21 11:12:20 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-21 11:12:20 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-21 11:12:20 +0800
+
+
+Started GET "/assets/blackboard.js?body=1" for 127.0.0.1 at 2014-11-21 11:12:20 +0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-11-21 11:12:20 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-21 11:12:20 +0800
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-11-21 11:12:20 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-21 11:12:20 +0800
+
+
+Started GET "/assets/blackboard.css?body=1" for 127.0.0.1 at 2014-11-21 11:12:20 +0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-11-21 11:12:20 +0800
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-21 11:12:20 +0800
